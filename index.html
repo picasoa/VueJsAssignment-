@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A small Vue Demo </title>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+	<div id="app">
+	<p>Enter A line In this Input Box</p>
+  <p>{{ message.toUpperCase() }}</p>
+  <input v-model="message" placeholder="Enter you Sentence">
+</div>
+
+</body>
+<script type="text/javascript">
+	
+var app6 = new Vue({
+  el: '#app',
+  data: {
+    message: " "
+  }
+})
+</script>
+</html>
